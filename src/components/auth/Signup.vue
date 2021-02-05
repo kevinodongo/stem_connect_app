@@ -10,12 +10,15 @@
           alt="Workflow"
         />
         <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
-          Sign up to your account
+          Sign up a new account
         </h2>
         <p class="mt-2 text-center text-sm text-gray-600">
           Or
-          <a href="#" class="font-medium text-emerald-600 hover:text-emerald-500">
-            start your 14-day free trial
+          <a
+            href="#"
+            class="font-medium text-emerald-600 hover:text-emerald-500"
+          >
+            start free and upgrade later
           </a>
         </p>
       </div>
@@ -48,10 +51,9 @@
           </div>
         </div>
 
-      
         <div>
           <button
-            type="submit"
+            type="button"
             @click="submit"
             class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500"
           >
@@ -71,7 +73,7 @@
                 />
               </svg>
             </span>
-            Sign in
+            Sign up
           </button>
         </div>
       </form>
@@ -90,8 +92,12 @@ export default {
   methods: {
     // submit button
     submit() {
-      this.$router.push("/dashboard/main");
-    },
+      //this.$router.push("/dashboard/main");
+      window.open(
+        "https://master.d12acev5deb288.amplifyapp.com/#/signup",
+        "_blank"
+      );
+    }
   }
 };
 </script>

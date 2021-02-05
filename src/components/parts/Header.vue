@@ -6,8 +6,8 @@
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <!-- Mobile menu button-->
             <button
-             @click="showmenu = !showmenu"
-              class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              @click="showmenu = !showmenu"
+              class="inline-flex cursor-pointer items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-expanded="false"
             >
               <span class="sr-only">Open main menu</span>
@@ -75,23 +75,23 @@
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <a
                   @click="howitworks"
-                  class="bg-gray-900 mt-2 text-white px-3 py-2 rounded-md text-sm font-medium"
+                  class="bg-gray-900 cursor-pointer mt-2 text-white px-3 py-2 rounded-md text-sm font-medium"
                   >How it works</a
                 >
               </div>
             </div>
           </div>
           <div
-            class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
+            class="absolute hidden sm:block  inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
           >
             <a
               @click="login"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              class="text-gray-300 cursor-pointer hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >Login</a
             >
             <a
               @click="signup"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              class="text-gray-300 cursor-pointer hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >Sign up</a
             >
           </div>
@@ -102,17 +102,17 @@
           <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
           <a
             @click="howitworks"
-            class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+            class="bg-gray-900 text-white cursor-pointer block px-3 py-2 rounded-md text-base font-medium"
             >How it works</a
           >
           <a
             @click="signup"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            class="text-gray-300 hover:bg-gray-700 cursor-pointer hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >Sign up</a
           >
           <a
             @click="login"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            class="text-gray-300 hover:bg-gray-700 cursor-pointer hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >Login</a
           >
         </div>
@@ -121,7 +121,7 @@
 
     <div
       style="background-image: url('https://res.cloudinary.com/dk5ch7wqm/image/upload/v1612462736/nasa-Q1p7bh3SHj8-unsplash_ywkfyu.jpg')"
-      class="flex justify-center h-screen content-center flex-wrap"
+      class="flex justify-center bg-black min-h-screen content-center flex-wrap"
     >
       <div>
         <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -157,7 +157,7 @@
 export default {
   data() {
     return {
-      showmenu: false,
+      showmenu: false
     };
   },
   methods: {
@@ -171,7 +171,11 @@ export default {
     },
     // login help
     howitworks() {
-      this.$router.push("/how-it-works");
+      //this.$router.push("/how-it-works");
+      window.open(
+        "https://master.d12acev5deb288.amplifyapp.com/#/how-it-works",
+        "_blank"
+      );
     }
   }
 };

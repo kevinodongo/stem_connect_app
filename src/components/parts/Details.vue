@@ -1,7 +1,7 @@
 <template>
   <div class="details">
     <div
-      class="py-12 bg-emerald-50 flex justify-center h-screen content-center flex-wrap"
+      class="py-12 bg-emerald-50 flex justify-center min-h-screen content-center flex-wrap"
     >
       <div>
         <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -9,7 +9,7 @@
             <h2
               class="text-base text-emerald-600 font-semibold tracking-wide uppercase"
             >
-              Transactions
+              WELCOME
             </h2>
             <p
               class="mt-5 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
@@ -51,12 +51,14 @@
                 </div>
                 <div class="ml-4">
                   <dt class="text-lg leading-6 font-medium text-gray-900">
-                    Competitive exchange rates
+                    Science
                   </dt>
                   <dd class="mt-2 text-base text-gray-500">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    Sciences provide an understanding of a universal experience,
+                    Arts are a universal understanding of a personal
+                    experience... they are both a part of us and a manifestation
+                    of the same thing... the arts and sciences are avatars of
+                    human creativity.
                   </dd>
                 </div>
               </div>
@@ -86,12 +88,16 @@
                 </div>
                 <div class="ml-4">
                   <dt class="text-lg leading-6 font-medium text-gray-900">
-                    No hidden fees
+                    Technology
                   </dt>
                   <dd class="mt-2 text-base text-gray-500">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    In the 21st century, scientific and technological
+                    innovations have become increasingly important as we face
+                    the benefits and challenges of both globalization and a
+                    knowledge-based economy. “To succeed in this new
+                    information-based and highly technological society, students
+                    need to develop their capabilities in STEM to levels much
+                    beyond what was considered acceptable in the past..
                   </dd>
                 </div>
               </div>
@@ -121,12 +127,12 @@
                 </div>
                 <div class="ml-4">
                   <dt class="text-lg leading-6 font-medium text-gray-900">
-                    Transfers are instant
+                    Engineering
                   </dt>
                   <dd class="mt-2 text-base text-gray-500">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    Engineering or technology is all about using the power of
+                    science to make life better for people, to reduce cost, to
+                    improve comfort, to improve productivity, etc.
                   </dd>
                 </div>
               </div>
@@ -149,19 +155,18 @@
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
-                        d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+                        d="M8 13v-1m4 1v-3m4 3V8M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"
                       />
                     </svg>
                   </div>
                 </div>
                 <div class="ml-4">
                   <dt class="text-lg leading-6 font-medium text-gray-900">
-                    Mobile notifications
+                    Mathematics
                   </dt>
                   <dd class="mt-2 text-base text-gray-500">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    Without mathematics, there's nothing you can do. Everything
+                    around you is mathematics. Everything around you is numbers.
                   </dd>
                 </div>
               </div>
